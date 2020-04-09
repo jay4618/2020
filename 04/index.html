@@ -39,6 +39,35 @@
         background-color: red;
         border-radius: 50%;
       }
+
+      #circle-wrapper {
+      }
+
+      .circle:nth-child(1) {
+        background-color: transparent;
+        border: 1px solid black;
+        opacity: 0.2;
+        box-sizing: border-box;
+      }
+
+      .circle:nth-child(2) {
+        background-color: #ffc000;
+      }
+
+      .circle:nth-child(2) {
+        background-color: #fedd15;
+      }
+
+      #badge {
+        background-color: #ffc000;
+        width: 56px;
+        height: 56px;
+        color: #485861;
+        margin-left: 24px;
+        padding-left: 10px;
+        padding-top: 10px;
+        box-sizing: border-box;
+      }
     </style>
   </head>
 
@@ -58,13 +87,13 @@
       </p>
     </div>
     <!-- 원 -->
-    <div class="circle-wrapper">
-      <div class="circle">1</div>
-      <div class="circle">2</div>
-      <div class="circle">3</div>
+    <div id="circle-wrapper">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
     </div>
     <!-- 뱃지 -->
-    <div>
+    <div id="badge">
       Ex- <br />
       clusive
     </div>
