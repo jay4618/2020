@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+        background-color: #485861;
+        color: #ffe6cf;
+        font-size: 11px;
+        line-height: 1.4;
+        font-weight: 500;
+      }
+      .text-area {
+        margin-top: 90px;
+        margin-left: 24px;
+      }
+
+      .text-area h1 {
+        font-size: 30px;
+        line-height: 1;
+        font-weight: normal;
+      }
+
+      .volume {
+        margin-bottom: 85px;
+      }
+
+      .circle {
+        width: 246px;
+        height: 246px;
+        background-color: red;
+        border-radius: 50%;
+      }
+    </style>
   </head>
 
   <body>
     <!-- 텍스트 영역 -->
-    <div>
+    <div class="text-area">
       <h1>
-        <div>vol. 4</div>
-        <div>Classics never get old</div>
+        <div class="volume">vol. 4</div>
+        <div class="title">
+          Classics<br />never<br />
+          get old
+        </div>
       </h1>
-      <p>We'll make a mobile magazine using html, css only.</p>
+      <p>
+        We'll make a mobile magazine<br />
+        using html, css only.
+      </p>
     </div>
     <!-- 원 -->
-    <div>
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
+    <div class="circle-wrapper">
+      <div class="circle">1</div>
+      <div class="circle">2</div>
+      <div class="circle">3</div>
     </div>
     <!-- 뱃지 -->
     <div>
