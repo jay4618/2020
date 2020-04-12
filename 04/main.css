@@ -16,3 +16,7 @@ h1 {
   line-height: 1;
   font-weight: normal;
 }
+
+p {
+  margin: 0;
+}
