@@ -17,6 +17,12 @@
         width: 100%;
       }
 
+      .search_icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
       .text-area {
         margin: 24px;
         margin-top: 124px;
@@ -72,7 +78,10 @@
 
   <body>
     <!-- 검색영역 -->
-    <header class="search"><input placeholder="Search" type="text" /></header>
+    <header class="search">
+      <input placeholder="Search" type="text" />
+      <img class="search_icon" src="img/icon/search.svg" />
+    </header>
 
     <!-- 텍스트영역 -->
     <div class="text-area">
