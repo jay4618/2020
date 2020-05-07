@@ -73,25 +73,6 @@
       position: relative;
     }
 
-    /* pseudo element */
-    .item:after {
-      content: "";
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      top: 0;
-      transition: 0.2s;
-    }
-
-    .item:hover:after {
-      background-color: rgba(0, 0, 0, 0.12);
-    }
-
-    .item:active:after {
-      background-color: rgba(0, 0, 0, 0.2);
-    }
-
     /* 리스트 시작 */
     .item .num {
       width: 26px;
@@ -134,14 +115,14 @@
   </div>
 
   <ul class="swiper">
-    <li></li>
-    <li></li>
-    <li></li>
+    <li class="mouse-effect"></li>
+    <li class="mouse-effect"></li>
+    <li class="mouse-effect"></li>
   </ul>
   <!-- ol: ordered list, ul: unordered list -->
   <!-- li: list item -->
   <ul class="list">
-    <li class="item">
+    <li class="item mouse-effect">
       <div class="num">1</div>
       <div class="infos">
         <div class="title">Hello World</div>
@@ -151,7 +132,7 @@
         </div>
     </li>
     </div>
-    <li class="item">
+    <li class="item mouse-effect">
       <div class="num">2</div>
       <div class="infos">
         <div class="title">Hello World</div>
@@ -161,7 +142,7 @@
         </div>
     </li>
     </div>
-    <li class="item">
+    <li class="item mouse-effect">
       <div class="num">3</div>
       <div class="infos">
         <div class="title">Hello World</div>

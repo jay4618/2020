@@ -43,6 +43,11 @@ li {
   list-style: none;
 }
 
+a {
+  color: #ffe6cf;
+  text-decoration: none;
+}
+
 input {
   background-color: rgba(255, 255, 255, 0.08);
   border: none;
@@ -70,4 +75,27 @@ button {
   outline: none;
   color: #ffe6cf;
   font-size: 15px;
+}
+
+.mouse-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.mouse-effect:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: ;
+}
+
+.mouse-effect:hover:after {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.mouse-effect:active:after {
+  background-color: rgba(0, 0, 0, 0.12);
 }
